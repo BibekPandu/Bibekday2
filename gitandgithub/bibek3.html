@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      div {
+        display: inline;
+        color: tomato;
+      }
+      #top-header {
+        background-color: green;
+      }
+      h1 {
+        color: yellow;
+        background-color: blue;
+      }
+      div {
+        color: yellow;
+      }
+      div #wrapper1 {
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="top-header">
+        <div class="]child">logo</div>
+        <div class="parent">my website.com</div>
+      </div>
+      <nav>
+        <a href="home.php">home</a>
+        <a href="about.php">about</a>
+        <a href="login.php">login</a>
+        <a href="signup.php">signup</a>
+      </nav>
+    </header>
+    <h1>css lab.</h1>
+    <div id="wrapper1">
+      w1:
+      <div class="child">child 1</div>
+      <div class="child">child 2</div>
+    </div>
+    <div id="wrapper2">
+      w2:
+      <div class="child">child3</div>
+    </div>
+
+    <form action="https://reqres.in/api/users" method="post">
+      username: <input type="text" name="name" id="username" /> <br />
+      password: <input type="password" name="password" id="paswword" /> <br />
+      Email: <input type="text" name="email" id="email" /> <br />
+      DOB: <input type="date" name="dob" id="dob" /> <br />
+      <input type="submit" value="signup" />
+    </form>
+    <br />
+    already have an account; <a href="signup.php">login</a>
+  </body>
+</html>
